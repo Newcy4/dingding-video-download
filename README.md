@@ -1,8 +1,11 @@
+本项目用于钉钉直播回放视频下载
+
 下载本项目后：
 
+- 安装 node 环境
 - 确保根目录有一个“ts”文件夹
 - 确保你的电脑装有ffmpeg（ffmpeg --version 有东西输出就行），没有的话安装一下，mac 的话直接 homebrew 安装就可以
-- 使用 vscode debug 运行download-m3u8.js，或直接执行 `node download-m3u8.js`
+- 执行`npm run start`即可开始下载
 
 其实想下载很简单，只需要找到对应的 m3u8文件就可以了
 

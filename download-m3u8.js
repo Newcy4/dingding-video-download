@@ -16,7 +16,7 @@ const axios = require("axios");
 // const BASE_URL = "https://dtliving-sz-dingpan.dingtalk.com/live/"; // 钉钉录播片段文件的URL前缀
 const BASE_URL = "https://dtliving-sh-dingpan.dingtalk.com/live/"; // 钉钉录播片段文件的URL前缀
 const DOWNLOAD_DELAY = 6; // 每个文件下载后等待的时间（秒），频率太快后面的片段会被返回403  目前最保险10s，最短6s，5s 的话会被封
-const M3U8_FILE_PATH = "./1.m3u8"; // 你本地的 m3u8 文件路径
+const M3U8_FILE_PATH = "./demo.m3u8"; // 你本地的 m3u8 文件路径
 const TS_OUTPUT_DIR = "./ts"; // 存放下载的 .ts 文件的目录
 const OUTPUT_MP4_FILE = "./ts/output.mp4"; // 最终合并后的视频文件名
 
