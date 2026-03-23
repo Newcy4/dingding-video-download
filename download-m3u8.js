@@ -11,7 +11,7 @@ const fs = require("fs-extra");
 const path = require("path");
 const axios = require("axios");
 
-// 配置项
+// 配置参数
 // const BASE_URL = "https://dtliving-sh.dingtalk.com/live_hp/"; // 钉钉录播片段文件的URL前缀
 // const BASE_URL = "https://dtliving-sz-dingpan.dingtalk.com/live/"; // 钉钉录播片段文件的URL前缀
 const BASE_URL = "https://dtliving-sh-dingpan.dingtalk.com/live/"; // 钉钉录播片段文件的URL前缀
